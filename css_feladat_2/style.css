@@ -1,0 +1,52 @@
+:root{
+    --szin1: black;
+    --szin2: red;
+    --szin3: green;
+    --szin4: Magenta;
+    --szin5: Pink;
+    --szin6: purple;
+    --szin7: Yellow;
+    --szin8: Aqua;
+    --bg-color : white;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+div{
+    width: 300px;
+    height: 200px;
+}
+
+.d1{
+    background-color: var(--szin1);
+}
+.d2{
+    background-color: var(--szin2);
+}
+.d3{
+    background-color: var(--szin3);
+}
+.d4{
+    background-color: var(--szin4);
+}
+.d5{
+    background-color: var(--szin5);
+}
+.d6{
+    background-color: var(--szin6);
+}
+.d7{
+    background-color: var(--szin7);
+}
+.d8{
+    background-color: var(--szin8);
+}
