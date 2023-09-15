@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="d1 item"></div>
+        <div class="d2 item"></div>
+        <div class="d3 item"></div>
+        <div class="d4 item"></div>
+        <div class="d5 item"></div>
+        <div class="d6 item"></div>
+        <div class="d7 item"></div>
+        <div class="d8 item"></div>
+    </main>
+    <input type="number" class="inputText" max="8" min="1"> 
+    <input type="color" class="inputColor"> 
+    <input type="button" value="Set background color" class="button">
+    <p>Width:</p>
+    <input type="range"  min="10" max="300" oninput="ChangeHeigthOfElements()" class="width">
+    <p>Height</p>
+    <input type="range" min="10" max="200" oninput="ChangeHeigthOfElements()" class="height">
+    <script src="./script.js"></script>
+</body>
+</html>
